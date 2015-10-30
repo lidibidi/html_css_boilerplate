@@ -4,13 +4,14 @@ window.onload = function() {
   //alert('hey hey hey');
   statusReport('hey hey hey!');
 
-  var username = prompt('What is your name?');
-  var mission = prompt('What is your mission');
+  var name = prompt('What is your name?');
+  var favDrink = prompt('Who is your favorite actor');
+
 
   var contentContainer =
   document.getElementById('content');
 
-  contentContainer.innerHTML = username + ' is on a mission to ' + mission;
+  contentContainer.innerHTML = name + ' wants ' + character + ' to play them in the movie about their life at General Assembly';
 }
 
 function statusReport(message){
